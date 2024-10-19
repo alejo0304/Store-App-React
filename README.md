@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Store App
+
+## Description
+
+Store App is a modern web application built with React, Redux, and Bootstrap. It serves as an online store showcasing various products, allowing users to browse items, view details, and interact with product ratings. The app features a responsive design and a user-friendly interface, making it easy for customers to navigate through the product offerings.
+
+## Technologies Used
+
+- **Frontend**: React, Redux, Bootstrap
+- **Routing**: React Router
+- **State Management**: Redux for managing application state
+- **Styling**: CSS, Bootstrap for responsive design
+- **API**: Fetching product data from a mock API
+
+## Features
+
+- Display a gallery of products with images, titles, and descriptions
+- Interactive star rating system for product evaluation
+- Detailed product page showing more information about the selected product
+- Responsive layout for optimal viewing on various devices
+- Easy navigation through different pages of the application
+
 ## Available Scripts
 
 In the project directory, you can run:
