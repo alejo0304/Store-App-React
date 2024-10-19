@@ -1,0 +1,44 @@
+.card {
+    border: none; 
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.card-img-top {
+    width: 100%; 
+    height: 250px; 
+    object-fit: contain;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.star-rating {
+    font-size: 1.5rem; /* Tamaño de las estrellas */
+    color: rgb(238, 238, 236); /* Color predeterminado para las estrellas llenas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre las estrellas */
+}
+
+.star {
+    margin-right: 4px; /* Espacio entre las estrellas */
+    border: 1px solid gold; /* Borde alrededor de las estrellas */
+    border-radius: 3px; /* Bordes redondeados, ajusta si lo deseas */
+    padding: 2px; /* Espaciado interno para separar el color de fondo del borde */
+    background-color: white; /* Fondo blanco para las estrellas */
+    transition: background-color 0.3s ease; /* Suaviza el cambio de color al pasar el mouse */
+}
+
+/* Color de las estrellas llenas */
+.star.filled {
+    color: gold; /* Color dorado para estrellas llenas */
+}
+
+/* Puedes agregar un efecto al pasar el mouse */
+.star:hover {
+    color: darkgoldenrod; /* Cambia el color al pasar el mouse */
+    background-color: #f0e68c; /* Color de fondo al pasar el mouse */
+}
